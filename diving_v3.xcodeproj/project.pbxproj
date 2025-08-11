@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC89EEEB2E46D95900810479 /* diving_v3 watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FC89EECB2E46D95600810479 /* diving_v3 watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC89EEAA2E46D76100810479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC89EE8B2E46D75E00810479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC89EE922E46D75E00810479;
+			remoteInfo = diving_v3;
+		};
+		FC89EEB42E46D76100810479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC89EE8B2E46D75E00810479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC89EE922E46D75E00810479;
+			remoteInfo = diving_v3;
+		};
+		FC89EED82E46D95900810479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC89EE8B2E46D75E00810479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC89EECA2E46D95600810479;
+			remoteInfo = "diving_v3 watch Watch App";
+		};
+		FC89EEE22E46D95900810479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC89EE8B2E46D75E00810479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC89EECA2E46D95600810479;
+			remoteInfo = "diving_v3 watch Watch App";
+		};
+		FC89EEE92E46D95900810479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC89EE8B2E46D75E00810479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC89EECA2E46D95600810479;
+			remoteInfo = "diving_v3 watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC89EEEF2E46D95900810479 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FC89EEEB2E46D95900810479 /* diving_v3 watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC89EE932E46D75E00810479 /* diving_v3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diving_v3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC89EEA92E46D76100810479 /* diving_v3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diving_v3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC89EEB32E46D76100810479 /* diving_v3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diving_v3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC89EECB2E46D95600810479 /* diving_v3 watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "diving_v3 watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC89EED72E46D95900810479 /* diving_v3 watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "diving_v3 watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC89EEE12E46D95900810479 /* diving_v3 watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "diving_v3 watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FC89EEBB2E46D76100810479 /* Exceptions for "diving_v3" folder in "diving_v3" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FC89EE922E46D75E00810479 /* diving_v3 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FC89EE952E46D75E00810479 /* diving_v3 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FC89EEBB2E46D76100810479 /* Exceptions for "diving_v3" folder in "diving_v3" target */,
+			);
+			path = diving_v3;
+			sourceTree = "<group>";
+		};
+		FC89EEAC2E46D76100810479 /* diving_v3Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = diving_v3Tests;
+			sourceTree = "<group>";
+		};
+		FC89EEB62E46D76100810479 /* diving_v3UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = diving_v3UITests;
+			sourceTree = "<group>";
+		};
+		FC89EECC2E46D95600810479 /* diving_v3 watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "diving_v3 watch Watch App";
+			sourceTree = "<group>";
+		};
+		FC89EEDA2E46D95900810479 /* diving_v3 watch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "diving_v3 watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		FC89EEE42E46D95900810479 /* diving_v3 watch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "diving_v3 watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC89EE902E46D75E00810479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEA62E46D76100810479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEB02E46D76100810479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEC82E46D95600810479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EED42E46D95900810479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEDE2E46D95900810479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC89EE8A2E46D75E00810479 = {
+			isa = PBXGroup;
+			children = (
+				FC89EE952E46D75E00810479 /* diving_v3 */,
+				FC89EEAC2E46D76100810479 /* diving_v3Tests */,
+				FC89EEB62E46D76100810479 /* diving_v3UITests */,
+				FC89EECC2E46D95600810479 /* diving_v3 watch Watch App */,
+				FC89EEDA2E46D95900810479 /* diving_v3 watch Watch AppTests */,
+				FC89EEE42E46D95900810479 /* diving_v3 watch Watch AppUITests */,
+				FC89EE942E46D75E00810479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC89EE942E46D75E00810479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC89EE932E46D75E00810479 /* diving_v3.app */,
+				FC89EEA92E46D76100810479 /* diving_v3Tests.xctest */,
+				FC89EEB32E46D76100810479 /* diving_v3UITests.xctest */,
+				FC89EECB2E46D95600810479 /* diving_v3 watch Watch App.app */,
+				FC89EED72E46D95900810479 /* diving_v3 watch Watch AppTests.xctest */,
+				FC89EEE12E46D95900810479 /* diving_v3 watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC89EE922E46D75E00810479 /* diving_v3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89EEBC2E46D76100810479 /* Build configuration list for PBXNativeTarget "diving_v3" */;
+			buildPhases = (
+				FC89EE8F2E46D75E00810479 /* Sources */,
+				FC89EE902E46D75E00810479 /* Frameworks */,
+				FC89EE912E46D75E00810479 /* Resources */,
+				FC89EEEF2E46D95900810479 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC89EEEA2E46D95900810479 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC89EE952E46D75E00810479 /* diving_v3 */,
+			);
+			name = diving_v3;
+			packageProductDependencies = (
+			);
+			productName = diving_v3;
+			productReference = FC89EE932E46D75E00810479 /* diving_v3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC89EEA82E46D76100810479 /* diving_v3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89EEC12E46D76100810479 /* Build configuration list for PBXNativeTarget "diving_v3Tests" */;
+			buildPhases = (
+				FC89EEA52E46D76100810479 /* Sources */,
+				FC89EEA62E46D76100810479 /* Frameworks */,
+				FC89EEA72E46D76100810479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC89EEAB2E46D76100810479 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC89EEAC2E46D76100810479 /* diving_v3Tests */,
+			);
+			name = diving_v3Tests;
+			packageProductDependencies = (
+			);
+			productName = diving_v3Tests;
+			productReference = FC89EEA92E46D76100810479 /* diving_v3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC89EEB22E46D76100810479 /* diving_v3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89EEC42E46D76100810479 /* Build configuration list for PBXNativeTarget "diving_v3UITests" */;
+			buildPhases = (
+				FC89EEAF2E46D76100810479 /* Sources */,
+				FC89EEB02E46D76100810479 /* Frameworks */,
+				FC89EEB12E46D76100810479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC89EEB52E46D76100810479 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC89EEB62E46D76100810479 /* diving_v3UITests */,
+			);
+			name = diving_v3UITests;
+			packageProductDependencies = (
+			);
+			productName = diving_v3UITests;
+			productReference = FC89EEB32E46D76100810479 /* diving_v3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FC89EECA2E46D95600810479 /* diving_v3 watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89EEEC2E46D95900810479 /* Build configuration list for PBXNativeTarget "diving_v3 watch Watch App" */;
+			buildPhases = (
+				FC89EEC72E46D95600810479 /* Sources */,
+				FC89EEC82E46D95600810479 /* Frameworks */,
+				FC89EEC92E46D95600810479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FC89EECC2E46D95600810479 /* diving_v3 watch Watch App */,
+			);
+			name = "diving_v3 watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "diving_v3 watch Watch App";
+			productReference = FC89EECB2E46D95600810479 /* diving_v3 watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC89EED62E46D95900810479 /* diving_v3 watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89EEF02E46D95900810479 /* Build configuration list for PBXNativeTarget "diving_v3 watch Watch AppTests" */;
+			buildPhases = (
+				FC89EED32E46D95900810479 /* Sources */,
+				FC89EED42E46D95900810479 /* Frameworks */,
+				FC89EED52E46D95900810479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC89EED92E46D95900810479 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC89EEDA2E46D95900810479 /* diving_v3 watch Watch AppTests */,
+			);
+			name = "diving_v3 watch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "diving_v3 watch Watch AppTests";
+			productReference = FC89EED72E46D95900810479 /* diving_v3 watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC89EEE02E46D95900810479 /* diving_v3 watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89EEF32E46D95900810479 /* Build configuration list for PBXNativeTarget "diving_v3 watch Watch AppUITests" */;
+			buildPhases = (
+				FC89EEDD2E46D95900810479 /* Sources */,
+				FC89EEDE2E46D95900810479 /* Frameworks */,
+				FC89EEDF2E46D95900810479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC89EEE32E46D95900810479 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC89EEE42E46D95900810479 /* diving_v3 watch Watch AppUITests */,
+			);
+			name = "diving_v3 watch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "diving_v3 watch Watch AppUITests";
+			productReference = FC89EEE12E46D95900810479 /* diving_v3 watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC89EE8B2E46D75E00810479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					FC89EE922E46D75E00810479 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					FC89EEA82E46D76100810479 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FC89EE922E46D75E00810479;
+					};
+					FC89EEB22E46D76100810479 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FC89EE922E46D75E00810479;
+					};
+					FC89EECA2E46D95600810479 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					FC89EED62E46D95900810479 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FC89EECA2E46D95600810479;
+					};
+					FC89EEE02E46D95900810479 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FC89EECA2E46D95600810479;
+					};
+				};
+			};
+			buildConfigurationList = FC89EE8E2E46D75E00810479 /* Build configuration list for PBXProject "diving_v3" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC89EE8A2E46D75E00810479;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FC89EE942E46D75E00810479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC89EE922E46D75E00810479 /* diving_v3 */,
+				FC89EEA82E46D76100810479 /* diving_v3Tests */,
+				FC89EEB22E46D76100810479 /* diving_v3UITests */,
+				FC89EECA2E46D95600810479 /* diving_v3 watch Watch App */,
+				FC89EED62E46D95900810479 /* diving_v3 watch Watch AppTests */,
+				FC89EEE02E46D95900810479 /* diving_v3 watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC89EE912E46D75E00810479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEA72E46D76100810479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEB12E46D76100810479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEC92E46D95600810479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EED52E46D95900810479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEDF2E46D95900810479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC89EE8F2E46D75E00810479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEA52E46D76100810479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEAF2E46D76100810479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEC72E46D95600810479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EED32E46D95900810479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89EEDD2E46D95900810479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC89EEAB2E46D76100810479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC89EE922E46D75E00810479 /* diving_v3 */;
+			targetProxy = FC89EEAA2E46D76100810479 /* PBXContainerItemProxy */;
+		};
+		FC89EEB52E46D76100810479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC89EE922E46D75E00810479 /* diving_v3 */;
+			targetProxy = FC89EEB42E46D76100810479 /* PBXContainerItemProxy */;
+		};
+		FC89EED92E46D95900810479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC89EECA2E46D95600810479 /* diving_v3 watch Watch App */;
+			targetProxy = FC89EED82E46D95900810479 /* PBXContainerItemProxy */;
+		};
+		FC89EEE32E46D95900810479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC89EECA2E46D95600810479 /* diving_v3 watch Watch App */;
+			targetProxy = FC89EEE22E46D95900810479 /* PBXContainerItemProxy */;
+		};
+		FC89EEEA2E46D95900810479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC89EECA2E46D95600810479 /* diving_v3 watch Watch App */;
+			targetProxy = FC89EEE92E46D95900810479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC89EEBD2E46D76100810479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VVUM7VD86;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = diving_v3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC89EEBE2E46D76100810479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VVUM7VD86;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = diving_v3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC89EEBF2E46D76100810479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC89EEC02E46D76100810479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC89EEC22E46D76100810479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diving_v3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/diving_v3";
+			};
+			name = Debug;
+		};
+		FC89EEC32E46D76100810479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diving_v3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/diving_v3";
+			};
+			name = Release;
+		};
+		FC89EEC52E46D76100810479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = diving_v3;
+			};
+			name = Debug;
+		};
+		FC89EEC62E46D76100810479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = diving_v3;
+			};
+			name = Release;
+		};
+		FC89EEED2E46D95900810479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VVUM7VD86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "diving_v3 watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "duckgii.diving-v3";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		FC89EEEE2E46D95900810479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VVUM7VD86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "diving_v3 watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "duckgii.diving-v3";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		FC89EEF12E46D95900810479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diving_v3 watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/diving_v3 watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		FC89EEF22E46D95900810479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diving_v3 watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/diving_v3 watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		FC89EEF42E46D95900810479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "diving_v3 watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		FC89EEF52E46D95900810479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WX9XAYNKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duckgii.diving-v3-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "diving_v3 watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC89EE8E2E46D75E00810479 /* Build configuration list for PBXProject "diving_v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89EEBF2E46D76100810479 /* Debug */,
+				FC89EEC02E46D76100810479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC89EEBC2E46D76100810479 /* Build configuration list for PBXNativeTarget "diving_v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89EEBD2E46D76100810479 /* Debug */,
+				FC89EEBE2E46D76100810479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC89EEC12E46D76100810479 /* Build configuration list for PBXNativeTarget "diving_v3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89EEC22E46D76100810479 /* Debug */,
+				FC89EEC32E46D76100810479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC89EEC42E46D76100810479 /* Build configuration list for PBXNativeTarget "diving_v3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89EEC52E46D76100810479 /* Debug */,
+				FC89EEC62E46D76100810479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC89EEEC2E46D95900810479 /* Build configuration list for PBXNativeTarget "diving_v3 watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89EEED2E46D95900810479 /* Debug */,
+				FC89EEEE2E46D95900810479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC89EEF02E46D95900810479 /* Build configuration list for PBXNativeTarget "diving_v3 watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89EEF12E46D95900810479 /* Debug */,
+				FC89EEF22E46D95900810479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC89EEF32E46D95900810479 /* Build configuration list for PBXNativeTarget "diving_v3 watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89EEF42E46D95900810479 /* Debug */,
+				FC89EEF52E46D95900810479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC89EE8B2E46D75E00810479 /* Project object */;
+}
